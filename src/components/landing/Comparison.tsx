@@ -11,7 +11,7 @@ export const Comparison = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-headline font-bold mb-4">Why Choose ASTU EXAM?</h2>
-          <p className="text-muted-foreground text-lg">See how we transform your academic journey.</p>
+          <p className="text-muted-foreground text-lg">The gap between average and academic excellence.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
@@ -26,15 +26,15 @@ export const Comparison = () => {
               <AlertCircle className="w-8 h-8" />
             </div>
             <h3 className="text-2xl font-bold mb-8 text-red-600 flex items-center gap-3">
-              Traditional Way
+              Without the App
             </h3>
             <ul className="space-y-6">
               {[
-                "Hours spent searching Telegram groups",
-                "Scrolling through messy old PDFs",
-                "Missing critical campus announcements",
-                "Manual, prone-to-error GPA calculation",
-                "No organized study plan or task tracking",
+                "Endless scrolling in messy Telegram groups",
+                "Unorganized study plans and missed tasks",
+                "Studying without focus, getting distracted",
+                "Manual, confusing GPA calculations",
+                "Zero access to materials during offline hours",
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-4 text-muted-foreground">
                   <div className="mt-1 p-1 bg-red-100 rounded-full text-red-600">
@@ -61,11 +61,11 @@ export const Comparison = () => {
             </h3>
             <ul className="space-y-6">
               {[
-                "Everything centralized in one fast app",
-                "AI-powered solutions and explanations",
-                "Verified and updated exam archives",
-                "Automated instant GPA Calculator",
-                "Integrated Student Portal & Notifications",
+                "All past papers organized and searchable",
+                "Smart Task Management for study goals",
+                "Deep focus with built-in Pomodoro Timer",
+                "One-tap GPA tracking and forecasting",
+                "Offline study mode for 24/7 productivity",
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1 p-1 bg-white/20 rounded-full text-white">
@@ -76,7 +76,7 @@ export const Comparison = () => {
               ))}
             </ul>
             <div className="mt-10 pt-8 border-t border-white/10 text-center">
-              <p className="text-white/80 font-medium italic">"The app that 90% of toppers use."</p>
+              <p className="text-white/80 font-medium italic">"The ultimate tool for the 4.0 student."</p>
             </div>
           </motion.div>
         </div>

@@ -3,24 +3,24 @@
 
 import React from "react";
 import { 
-  FileText, BrainCircuit, Calculator, Globe, Code, 
+  FileText, BrainCircuit, Calculator, Globe, Clock, 
   LayoutDashboard, Bell, CheckSquare, Layers, WifiOff, Search, Moon 
 } from "lucide-react";
 import { motion } from "framer-motion";
 
 const features = [
-  { icon: FileText, title: "Past Exams", color: "bg-blue-100 text-blue-600", desc: "Access thousands of verified past exam papers." },
-  { icon: BrainCircuit, title: "AI Study Assistant", color: "bg-purple-100 text-purple-600", desc: "Get intelligent explanations for tough questions." },
-  { icon: Calculator, title: "GPA Calculator", color: "bg-green-100 text-green-600", desc: "Track and forecast your academic performance." },
-  { icon: Globe, title: "Student Portal", color: "bg-orange-100 text-orange-600", desc: "Integrated access to official university resources." },
-  { icon: Code, title: "Code Runner", color: "bg-red-100 text-red-600", desc: "Run your programming assignments inside the app." },
-  { icon: LayoutDashboard, title: "Mock Exams", color: "bg-indigo-100 text-indigo-600", desc: "Practice with timed simulations for better readiness." },
-  { icon: Bell, title: "Announcements", color: "bg-yellow-100 text-yellow-600", desc: "Never miss a campus update with real-time alerts." },
-  { icon: CheckSquare, title: "Study Tasks", color: "bg-teal-100 text-teal-600", desc: "Manage your study schedule with a built-in task list." },
-  { icon: Layers, title: "Exam Categories", color: "bg-cyan-100 text-cyan-600", desc: "Browse exams organized by year and department." },
-  { icon: WifiOff, title: "Offline Access", color: "bg-gray-100 text-gray-600", desc: "Download exams and study anywhere without internet." },
-  { icon: Search, title: "Fast Search", color: "bg-pink-100 text-pink-600", desc: "Instant results for any course or topic you need." },
-  { icon: Moon, title: "Dark Mode", color: "bg-slate-800 text-white", desc: "Easier on your eyes for late-night study sessions." },
+  { icon: FileText, title: "Past Exams", color: "bg-blue-100 text-blue-600", desc: "Access thousands of verified past exam papers for all ASTU departments." },
+  { icon: BrainCircuit, title: "AI Study Assistant", color: "bg-purple-100 text-purple-600", desc: "Get intelligent, simple explanations for complex ASTU exam questions." },
+  { icon: CheckSquare, title: "Task Management", color: "bg-teal-100 text-teal-600", desc: "Plan your study sessions and track academic goals with an integrated planner." },
+  { icon: Clock, title: "Pomodoro Timer", color: "bg-orange-100 text-orange-600", desc: "Boost your productivity with a focus timer tailored for long study blocks." },
+  { icon: Calculator, title: "GPA Calculator", color: "bg-green-100 text-green-600", desc: "Easily track and forecast your semester GPA with automated grade inputs." },
+  { icon: Globe, title: "Student Portal", color: "bg-indigo-100 text-indigo-600", desc: "Quick access to your ASTU student portal without leaving the application." },
+  { icon: Bell, title: "Announcements", color: "bg-yellow-100 text-yellow-600", desc: "Stay updated with real-time campus news and official exam schedules." },
+  { icon: LayoutDashboard, title: "Mock Exams", color: "bg-red-100 text-red-600", desc: "Practice under pressure with timed mock tests designed for ASTU standards." },
+  { icon: Layers, title: "Department Filters", color: "bg-cyan-100 text-cyan-600", desc: "Browse materials organized by year, department, and specific course codes." },
+  { icon: WifiOff, title: "Offline Access", color: "bg-gray-100 text-gray-600", desc: "Download materials to your device and study anywhere without an internet connection." },
+  { icon: Search, title: "Global Search", color: "bg-pink-100 text-pink-600", desc: "Find any course code or subject keyword across all study resources instantly." },
+  { icon: Moon, title: "Dark Mode", color: "bg-slate-800 text-white", desc: "Protects your eyes during late-night study sessions with a premium dark interface." },
 ];
 
 export const FeaturesGrid = () => {
@@ -37,7 +37,7 @@ export const FeaturesGrid = () => {
             Everything You Need to <span className="text-primary">Excel</span>
           </motion.h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Packed with advanced tools designed specifically for the ASTU curriculum and student lifestyle.
+            We've built a comprehensive toolset specifically for ASTU students to stay organized and perform better.
           </p>
         </div>
 

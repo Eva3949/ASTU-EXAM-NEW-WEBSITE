@@ -9,7 +9,7 @@
     {
       "id": "screenshot-1",
       "description": "GPA calculator interface",
-      "imageUrl": "https://picsum.photos/seed/astu2/400/800",
+      "imageUrl": "/image/sh2.png",
       "imageHint": "app interface"
     },
     {
@@ -17,6 +17,18 @@
       "description": "AI study companion chat",
       "imageUrl": "https://picsum.photos/seed/astu3/400/800",
       "imageHint": "chat interface"
+    },
+    {
+      "id": "screenshot-task-management",
+      "description": "Task Management and Study Planner",
+      "imageUrl": "https://picsum.photos/seed/taskmgmt/400/800",
+      "imageHint": "task planner"
+    },
+    {
+      "id": "screenshot-pomodoro",
+      "description": "Study Pomodoro Timer",
+      "imageUrl": "https://picsum.photos/seed/pomodoro/400/800",
+      "imageHint": "timer interface"
     },
     {
       "id": "screenshot-3",
