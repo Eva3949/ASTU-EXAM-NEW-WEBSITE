@@ -63,7 +63,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-1">Email Us</h4>
-                  <p className="text-muted-foreground">support@astuexamapp.com</p>
+                  <p className="text-muted-foreground">Evadevstudio@gmail.com</p>
                 </div>
               </div>
 
@@ -73,7 +73,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-1">Join Telegram</h4>
-                  <p className="text-muted-foreground">@astuexamapp_community</p>
+                  <p className="text-muted-foreground">@Evadevstudio</p>
                 </div>
               </div>
 
@@ -83,7 +83,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-1">Call Support</h4>
-                  <p className="text-muted-foreground">+251 912 345 678</p>
+                  <p className="text-muted-foreground">+251 939 499 987</p>
                 </div>
               </div>
 
@@ -93,7 +93,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-1">Our Location</h4>
-                  <p className="text-muted-foreground">Adama Science and Technology University, Adama, Ethiopia</p>
+                  <p className="text-muted-foreground">Addis Ababa & Adama Science and Technology University, Adama, Ethiopia</p>
                 </div>
               </div>
             </div>

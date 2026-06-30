@@ -81,7 +81,7 @@
     {
       "id": "developer-avatar",
       "description": "Developer portrait",
-      "imageUrl": "https://picsum.photos/seed/eva1/400/400",
+      "imageUrl": "/image/evadevstudio.jpg",
       "imageHint": "developer portrait"
     },
     {
