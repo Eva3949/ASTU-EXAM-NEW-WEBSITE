@@ -11,7 +11,6 @@ import { Comparison } from "@/components/landing/Comparison";
 import { AIStudyTool } from "@/components/landing/AIStudyTool";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { ScreenshotsGallery } from "@/components/landing/ScreenshotsGallery";
-import { VideoSection } from "@/components/landing/VideoSection";
 import { FAQ } from "@/components/landing/FAQ";
 import { PlayStoreDownload } from "@/components/landing/PlayStoreDownload";
 import { DeveloperSection } from "@/components/landing/DeveloperSection";
@@ -41,7 +40,6 @@ export default function LandingPage() {
         <Comparison />
         <Testimonials />
         <ScreenshotsGallery />
-        <VideoSection />
         <FAQ />
         <PlayStoreDownload />
         <DeveloperSection />
