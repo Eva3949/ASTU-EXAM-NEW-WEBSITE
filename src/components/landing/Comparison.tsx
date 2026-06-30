@@ -10,7 +10,7 @@ export const Comparison = () => {
     <section className="py-24 px-6 bg-slate-50 dark:bg-slate-900/20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-headline font-bold mb-4">Why Choose AstuSphere?</h2>
+          <h2 className="text-4xl font-headline font-bold mb-4">Why Choose ASTU EXAM?</h2>
           <p className="text-muted-foreground text-lg">See how we transform your academic journey.</p>
         </div>
 
@@ -57,7 +57,7 @@ export const Comparison = () => {
               <Smartphone className="w-8 h-8" />
             </div>
             <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
-              With AstuSphere
+              With ASTU EXAM
             </h3>
             <ul className="space-y-6">
               {[

@@ -37,8 +37,8 @@ export const Navbar = () => {
           <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-primary/20 group-hover:scale-105 transition-transform">
             A
           </div>
-          <span className="font-headline font-bold text-2xl tracking-tight">
-            Astu<span className="text-primary">Sphere</span>
+          <span className="font-headline font-bold text-2xl tracking-tight uppercase">
+            ASTU <span className="text-primary">EXAM</span>
           </span>
         </Link>
 

@@ -15,8 +15,8 @@ export const Footer = () => {
               <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg">
                 A
               </div>
-              <span className="font-headline font-bold text-2xl tracking-tight text-white">
-                Astu<span className="text-primary">Sphere</span>
+              <span className="font-headline font-bold text-2xl tracking-tight text-white uppercase">
+                ASTU <span className="text-primary">EXAM</span>
               </span>
             </Link>
             <p className="leading-relaxed">
@@ -69,7 +69,7 @@ export const Footer = () => {
 
         <div className="border-t border-slate-800 pt-10 text-center text-sm">
           <p className="flex items-center justify-center gap-1">
-            © {new Date().getFullYear()} AstuSphere. Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by Eva Development Studio.
+            © {new Date().getFullYear()} ASTU EXAM. Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by Eva Development Studio.
           </p>
         </div>
       </div>

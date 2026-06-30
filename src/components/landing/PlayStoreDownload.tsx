@@ -22,7 +22,7 @@ export const PlayStoreDownload = () => {
               A
             </div>
             <div className="text-center md:text-left">
-              <h2 className="text-4xl font-headline font-bold mb-2">AstuSphere</h2>
+              <h2 className="text-4xl font-headline font-bold mb-2">ASTU EXAM</h2>
               <p className="text-primary font-bold text-lg mb-2">Eva Development Studio</p>
               <p className="text-muted-foreground mb-4">Education • Contains Ads</p>
               <div className="flex items-center gap-6 justify-center md:justify-start">

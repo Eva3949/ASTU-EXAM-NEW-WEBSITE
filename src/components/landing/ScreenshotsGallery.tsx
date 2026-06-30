@@ -14,7 +14,7 @@ export const ScreenshotsGallery = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-headline font-bold mb-4">App Gallery</h2>
-          <p className="text-muted-foreground text-lg">A visual tour through AstuSphere's feature-rich ecosystem.</p>
+          <p className="text-muted-foreground text-lg">A visual tour through ASTU EXAM's feature-rich ecosystem.</p>
         </div>
 
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">

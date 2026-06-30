@@ -3,7 +3,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'AstuSphere - Master Every ASTU Exam',
+  title: 'ASTU EXAM - Master Every ASTU Exam',
   description: 'The ultimate study companion for ASTU students. Past exams, AI assistant, GPA tracker, and more.',
 };
 

@@ -11,7 +11,7 @@ export const VideoSection = () => {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-headline font-bold mb-4">See It in Action</h2>
-          <p className="text-muted-foreground text-lg">A quick walkthrough of how AstuSphere can help you dominate your finals.</p>
+          <p className="text-muted-foreground text-lg">A quick walkthrough of how ASTU EXAM can help you dominate your finals.</p>
         </div>
 
         <motion.div
