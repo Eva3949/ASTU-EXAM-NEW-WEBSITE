@@ -1,3 +1,94 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-mockup",
+      "description": "App dashboard showing past exams and GPA tracker",
+      "imageUrl": "https://picsum.photos/seed/astu1/600/1200",
+      "imageHint": "mobile dashboard"
+    },
+    {
+      "id": "screenshot-1",
+      "description": "GPA calculator interface",
+      "imageUrl": "https://picsum.photos/seed/astu2/400/800",
+      "imageHint": "app interface"
+    },
+    {
+      "id": "screenshot-2",
+      "description": "AI study companion chat",
+      "imageUrl": "https://picsum.photos/seed/astu3/400/800",
+      "imageHint": "chat interface"
+    },
+    {
+      "id": "screenshot-3",
+      "description": "Past exams list",
+      "imageUrl": "https://picsum.photos/seed/astu4/400/800",
+      "imageHint": "document list"
+    },
+    {
+      "id": "screenshot-4",
+      "description": "Code runner interface",
+      "imageUrl": "https://picsum.photos/seed/astu5/400/800",
+      "imageHint": "code editor"
+    },
+    {
+      "id": "screenshot-5",
+      "description": "Campus announcements",
+      "imageUrl": "https://picsum.photos/seed/astu6/400/800",
+      "imageHint": "news feed"
+    },
+    {
+      "id": "screenshot-6",
+      "description": "Student profile and settings",
+      "imageUrl": "https://picsum.photos/seed/astu7/400/800",
+      "imageHint": "user profile"
+    },
+    {
+      "id": "screenshot-7",
+      "description": "Offline access mode",
+      "imageUrl": "https://picsum.photos/seed/astu8/400/800",
+      "imageHint": "offline settings"
+    },
+    {
+      "id": "screenshot-8",
+      "description": "Exam categories grid",
+      "imageUrl": "https://picsum.photos/seed/astu9/400/800",
+      "imageHint": "categories grid"
+    },
+    {
+      "id": "screenshot-9",
+      "description": "Dark mode preview",
+      "imageUrl": "https://picsum.photos/seed/astu10/400/800",
+      "imageHint": "dark mode"
+    },
+    {
+      "id": "screenshot-10",
+      "description": "Search functionality",
+      "imageUrl": "https://picsum.photos/seed/astu11/400/800",
+      "imageHint": "search results"
+    },
+    {
+      "id": "developer-avatar",
+      "description": "Developer portrait",
+      "imageUrl": "https://picsum.photos/seed/eva1/400/400",
+      "imageHint": "developer portrait"
+    },
+    {
+      "id": "student-1",
+      "description": "Student avatar 1",
+      "imageUrl": "https://picsum.photos/seed/stud1/100/100",
+      "imageHint": "student portrait"
+    },
+    {
+      "id": "student-2",
+      "description": "Student avatar 2",
+      "imageUrl": "https://picsum.photos/seed/stud2/100/100",
+      "imageHint": "student portrait"
+    },
+    {
+      "id": "student-3",
+      "description": "Student avatar 3",
+      "imageUrl": "https://picsum.photos/seed/stud3/100/100",
+      "imageHint": "student portrait"
+    }
+  ]
 }
