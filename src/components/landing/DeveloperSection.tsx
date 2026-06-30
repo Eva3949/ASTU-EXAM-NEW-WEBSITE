@@ -45,20 +45,30 @@ export const DeveloperSection = () => {
               </p>
               
               <div className="flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 mb-10">
-                <Button variant="outline" size="icon" className="w-12 h-12 rounded-xl active:scale-90 transition-transform" title="GitHub">
-                  <Github className="w-5 h-5" />
+                <Button asChild variant="outline" size="icon" className="w-12 h-12 rounded-xl active:scale-90 transition-transform" title="GitHub">
+                  <a href="https://evadevstudio.com" target="_blank" rel="noopener noreferrer">
+                    <Github className="w-5 h-5" />
+                  </a>
                 </Button>
-                <Button variant="outline" size="icon" className="w-12 h-12 rounded-xl active:scale-90 transition-transform" title="Portfolio">
-                  <Globe className="w-5 h-5" />
+                <Button asChild variant="outline" size="icon" className="w-12 h-12 rounded-xl active:scale-90 transition-transform" title="Portfolio">
+                  <a href="https://evadevstudio.com" target="_blank" rel="noopener noreferrer">
+                    <Globe className="w-5 h-5" />
+                  </a>
                 </Button>
-                <Button variant="outline" size="icon" className="w-12 h-12 rounded-xl active:scale-90 transition-transform" title="Twitter">
-                  <Twitter className="w-5 h-5" />
+                <Button asChild variant="outline" size="icon" className="w-12 h-12 rounded-xl active:scale-90 transition-transform" title="Twitter">
+                  <a href="https://evadevstudio.com" target="_blank" rel="noopener noreferrer">
+                    <Twitter className="w-5 h-5" />
+                  </a>
                 </Button>
-                <Button variant="outline" size="icon" className="w-12 h-12 rounded-xl active:scale-90 transition-transform" title="LinkedIn">
-                  <Linkedin className="w-5 h-5" />
+                <Button asChild variant="outline" size="icon" className="w-12 h-12 rounded-xl active:scale-90 transition-transform" title="LinkedIn">
+                  <a href="https://evadevstudio.com" target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="w-5 h-5" />
+                  </a>
                 </Button>
-                <Button variant="secondary" className="px-6 rounded-xl font-bold active:scale-95 transition-transform">
-                  Contact Eva
+                <Button asChild variant="secondary" className="px-6 rounded-xl font-bold active:scale-95 transition-transform">
+                  <a href="https://evadevstudio.com" target="_blank" rel="noopener noreferrer">
+                    Contact Eva
+                  </a>
                 </Button>
               </div>
 
