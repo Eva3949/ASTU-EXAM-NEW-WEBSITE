@@ -3,7 +3,7 @@
     {
       "id": "hero-mockup",
       "description": "App dashboard showing past exams and GPA tracker",
-      "imageUrl": "https://picsum.photos/seed/astu1/600/1200",
+      "imageUrl": "/image/sh1.png",
       "imageHint": "mobile dashboard"
     },
     {
