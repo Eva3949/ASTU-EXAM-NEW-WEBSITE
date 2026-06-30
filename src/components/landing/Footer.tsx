@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from "react";
@@ -14,7 +15,7 @@ export const Footer = () => {
             <Link href="/" className="flex items-center gap-2 group">
               <div className="relative w-10 h-10 overflow-hidden rounded-xl shadow-lg">
                 <Image 
-                  src="/logo.png" 
+                  src="/image/logo.png" 
                   alt="ASTU EXAM Logo" 
                   fill 
                   className="object-cover"

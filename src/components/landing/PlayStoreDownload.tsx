@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from "react";
@@ -20,7 +21,7 @@ export const PlayStoreDownload = () => {
           <div className="flex flex-col md:flex-row items-center gap-6 sm:gap-8 mb-10 text-center md:text-left">
             <div className="relative w-28 h-28 sm:w-32 sm:h-32 lg:w-40 lg:h-40 overflow-hidden rounded-[2rem] shadow-2xl shadow-primary/20 shrink-0">
               <Image 
-                src="/logo.png" 
+                src="/image/logo.png" 
                 alt="ASTU EXAM App Icon" 
                 fill 
                 className="object-cover"
@@ -85,7 +86,9 @@ export const PlayStoreDownload = () => {
           </div>
 
           <div className="mt-8 flex items-start gap-4 p-5 sm:p-6 bg-primary/5 rounded-[1.5rem] border border-primary/10">
-            <Info className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+            <div className="w-5 h-5 text-primary shrink-0 mt-0.5">
+              <Info className="w-full h-full" />
+            </div>
             <p className="text-xs sm:text-sm text-foreground/70 leading-relaxed">
               Join 10,000+ ASTU students already mastering their exams. Access past papers, intelligent study guides, and the AI-powered assistant instantly.
             </p>

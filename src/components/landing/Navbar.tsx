@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -37,7 +38,7 @@ export const Navbar = () => {
           <Link href="/" className="flex items-center gap-2 group">
             <div className="relative w-10 h-10 overflow-hidden rounded-xl shadow-lg shadow-primary/20 group-hover:scale-105 transition-transform">
               <Image 
-                src="/logo.png" 
+                src="/image/logo.png" 
                 alt="ASTU EXAM Logo" 
                 fill 
                 className="object-cover"
