@@ -53,7 +53,7 @@ export const PlayStoreDownload = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <Button asChild size="lg" className="w-full h-14 rounded-2xl text-lg font-bold shadow-lg shadow-primary/30 active:scale-95 transition-transform">
-              <a href="/APK/ASTU EXAM.apk" download="ASTU EXAM.apk">
+              <a href="http://evadevstudio.com/astuexam/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
                 <Download className="w-5 h-5 mr-3" />
                 Download APK
               </a>

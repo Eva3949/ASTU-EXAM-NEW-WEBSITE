@@ -27,7 +27,7 @@ export const Hero = () => {
               <span>The #1 Study App for ASTU Students</span>
             </div>
             <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold leading-[1.2] lg:leading-[1.1] mb-6">
-              Master Every <span className="text-primary">ASTU Exam</span> with Confidence
+              Master Every <span className="text-primary">ASTU EXAM</span> with Confidence
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
               Prepare smarter with past exams, AI assistance, GPA calculator, and everything you need in one powerful app.
@@ -35,7 +35,7 @@ export const Hero = () => {
 
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-12">
               <Button asChild size="lg" className="w-full sm:w-auto h-14 px-8 text-lg rounded-full shadow-xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all">
-                <a href="/APK/ASTU EXAM.apk" download="ASTU EXAM.apk">
+                <a href="http://evadevstudio.com/astuexam/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
                   <Download className="w-5 h-5 mr-2" />
                   Download APK
                 </a>
