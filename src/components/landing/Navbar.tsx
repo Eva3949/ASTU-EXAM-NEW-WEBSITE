@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Download, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,8 +35,13 @@ export const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-primary/20 group-hover:scale-105 transition-transform">
-              A
+            <div className="relative w-10 h-10 overflow-hidden rounded-xl shadow-lg shadow-primary/20 group-hover:scale-105 transition-transform">
+              <Image 
+                src="/logo.png" 
+                alt="ASTU EXAM Logo" 
+                fill 
+                className="object-cover"
+              />
             </div>
             <span className="font-headline font-bold text-xl sm:text-2xl tracking-tight uppercase">
               ASTU <span className="text-primary">EXAM</span>

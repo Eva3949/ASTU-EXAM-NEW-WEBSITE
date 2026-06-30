@@ -15,49 +15,49 @@
     {
       "id": "screenshot-2",
       "description": "AI study companion chat",
-      "imageUrl": "https://picsum.photos/seed/astu3/400/800",
+      "imageUrl": "/image/sh3.png",
       "imageHint": "chat interface"
     },
     {
       "id": "screenshot-task-management",
       "description": "Task Management and Study Planner",
-      "imageUrl": "https://picsum.photos/seed/taskmgmt/400/800",
+      "imageUrl": "/image/sh10.png",
       "imageHint": "task planner"
     },
     {
       "id": "screenshot-pomodoro",
       "description": "Study Pomodoro Timer",
-      "imageUrl": "https://picsum.photos/seed/pomodoro/400/800",
+      "imageUrl": "/image/sh9.png",
       "imageHint": "timer interface"
     },
     {
       "id": "screenshot-3",
       "description": "Past exams list",
-      "imageUrl": "https://picsum.photos/seed/astu4/400/800",
+      "imageUrl": "/image/sh4.png",
       "imageHint": "document list"
     },
     {
       "id": "screenshot-4",
       "description": "Code runner interface",
-      "imageUrl": "https://picsum.photos/seed/astu5/400/800",
+      "imageUrl": "/image/sh5.png",
       "imageHint": "code editor"
     },
     {
       "id": "screenshot-5",
       "description": "Campus announcements",
-      "imageUrl": "https://picsum.photos/seed/astu6/400/800",
+      "imageUrl": "/image/sh6.png",
       "imageHint": "news feed"
     },
     {
       "id": "screenshot-6",
       "description": "Student profile and settings",
-      "imageUrl": "https://picsum.photos/seed/astu7/400/800",
+      "imageUrl": "/image/sh7.png",
       "imageHint": "user profile"
     },
     {
       "id": "screenshot-7",
       "description": "Offline access mode",
-      "imageUrl": "https://picsum.photos/seed/astu8/400/800",
+      "imageUrl": "/image/sh8.png",
       "imageHint": "offline settings"
     },
     {
@@ -69,13 +69,13 @@
     {
       "id": "screenshot-9",
       "description": "Dark mode preview",
-      "imageUrl": "https://picsum.photos/seed/astu10/400/800",
+      "imageUrl": "/image/sh11.png",
       "imageHint": "dark mode"
     },
     {
       "id": "screenshot-10",
       "description": "Search functionality",
-      "imageUrl": "https://picsum.photos/seed/astu11/400/800",
+      "imageUrl": "/image/sh12.png",
       "imageHint": "search results"
     },
     {

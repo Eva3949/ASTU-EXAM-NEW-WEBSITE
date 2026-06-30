@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Download, Share2, Send, Star, Info } from "lucide-react";
 import { motion } from "framer-motion";
@@ -17,8 +18,13 @@ export const PlayStoreDownload = () => {
         >
           {/* Play Store Vibes Icon */}
           <div className="flex flex-col md:flex-row items-center gap-6 sm:gap-8 mb-10 text-center md:text-left">
-            <div className="w-28 h-28 sm:w-32 sm:h-32 lg:w-40 lg:h-40 bg-primary rounded-[2rem] flex items-center justify-center text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl shadow-2xl shadow-primary/20 shrink-0">
-              A
+            <div className="relative w-28 h-28 sm:w-32 sm:h-32 lg:w-40 lg:h-40 overflow-hidden rounded-[2rem] shadow-2xl shadow-primary/20 shrink-0">
+              <Image 
+                src="/logo.png" 
+                alt="ASTU EXAM App Icon" 
+                fill 
+                className="object-cover"
+              />
             </div>
             <div className="flex-1">
               <h2 className="text-3xl sm:text-4xl font-headline font-bold mb-1">ASTU EXAM</h2>
@@ -32,7 +38,7 @@ export const PlayStoreDownload = () => {
                 </div>
                 <div className="w-px h-6 bg-border shrink-0" />
                 <div className="text-center shrink-0">
-                  <div className="font-bold">50MB</div>
+                  <div className="font-bold">99MB</div>
                   <p className="text-[10px] uppercase text-muted-foreground font-bold tracking-wider">Size</p>
                 </div>
                 <div className="w-px h-6 bg-border shrink-0" />
@@ -62,7 +68,7 @@ export const PlayStoreDownload = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 py-8 border-t border-border/50">
             <div className="flex flex-col gap-1">
               <span className="text-[10px] font-bold uppercase text-muted-foreground tracking-widest">Version</span>
-              <span className="font-bold text-sm sm:text-base">2.4.0</span>
+              <span className="font-bold text-sm sm:text-base">2.0.0</span>
             </div>
             <div className="flex flex-col gap-1">
               <span className="text-[10px] font-bold uppercase text-muted-foreground tracking-widest">Android</span>
@@ -70,7 +76,7 @@ export const PlayStoreDownload = () => {
             </div>
             <div className="flex flex-col gap-1">
               <span className="text-[10px] font-bold uppercase text-muted-foreground tracking-widest">Updated</span>
-              <span className="font-bold text-sm sm:text-base">May 12, 2024</span>
+              <span className="font-bold text-sm sm:text-base">Jun 30, 2026</span>
             </div>
             <div className="flex flex-col gap-1">
               <span className="text-[10px] font-bold uppercase text-muted-foreground tracking-widest">Category</span>
