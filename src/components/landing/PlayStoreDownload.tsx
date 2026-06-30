@@ -52,9 +52,11 @@ export const PlayStoreDownload = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <Button size="lg" className="w-full h-14 rounded-2xl text-lg font-bold shadow-lg shadow-primary/30 active:scale-95 transition-transform">
-              <Download className="w-5 h-5 mr-3" />
-              Download APK
+            <Button asChild size="lg" className="w-full h-14 rounded-2xl text-lg font-bold shadow-lg shadow-primary/30 active:scale-95 transition-transform">
+              <a href="/APK/ASTU EXAM.apk" download="ASTU EXAM.apk">
+                <Download className="w-5 h-5 mr-3" />
+                Download APK
+              </a>
             </Button>
             <div className="flex gap-4 w-full sm:w-auto">
               <Button variant="outline" size="icon" className="flex-1 sm:flex-none w-full sm:w-14 h-14 rounded-2xl active:scale-90 transition-transform">

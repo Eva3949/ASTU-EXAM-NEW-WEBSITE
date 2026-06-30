@@ -60,9 +60,11 @@ export const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <Button className="rounded-full px-6 shadow-lg shadow-primary/20 hover:scale-105 transition-all">
-              <Download className="w-4 h-4 mr-2" />
-              Download
+            <Button asChild className="rounded-full px-6 shadow-lg shadow-primary/20 hover:scale-105 transition-all">
+              <a href="/APK/ASTU EXAM.apk" download="ASTU EXAM.apk">
+                <Download className="w-4 h-4 mr-2" />
+                Download
+              </a>
             </Button>
           </div>
 
@@ -113,9 +115,11 @@ export const Navbar = () => {
                   </Link>
                 ))}
                 <div className="mt-8 space-y-4">
-                  <Button className="w-full rounded-2xl py-7 text-lg shadow-xl shadow-primary/30">
-                    <Download className="w-5 h-5 mr-3" />
-                    Download App
+                  <Button asChild className="w-full rounded-2xl py-7 text-lg shadow-xl shadow-primary/30">
+                    <a href="/APK/ASTU EXAM.apk" download="ASTU EXAM.apk">
+                      <Download className="w-5 h-5 mr-3" />
+                      Download App
+                    </a>
                   </Button>
                   <p className="text-center text-sm text-muted-foreground font-medium">
                     Available for Android 7.0+

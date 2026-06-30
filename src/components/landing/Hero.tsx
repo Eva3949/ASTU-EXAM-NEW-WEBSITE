@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from "react";
@@ -33,11 +34,13 @@ export const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-12">
-              <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-lg rounded-full shadow-xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all">
-                <Download className="w-5 h-5 mr-2" />
-                Download APK
+              <Button asChild size="lg" className="w-full sm:w-auto h-14 px-8 text-lg rounded-full shadow-xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all">
+                <a href="/APK/ASTU EXAM.apk" download="ASTU EXAM.apk">
+                  <Download className="w-5 h-5 mr-2" />
+                  Download APK
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="w-full sm:w-auto h-14 px-8 text-lg rounded-full hover:bg-muted active:scale-95 transition-all">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto h-14 px-8 text-lg rounded-full hover:bg-muted active:scale-95 transition-all" onClick={() => document.getElementById('preview')?.scrollIntoView({ behavior: 'smooth' })}>
                 <ImageIcon className="w-5 h-5 mr-2" />
                 View Screenshots
               </Button>
@@ -85,7 +88,7 @@ export const Hero = () => {
               )}
             </div>
             
-            {/* Floating Elements - Hidden on very small screens for better focus */}
+            {/* Floating Elements */}
             <motion.div 
               animate={{ y: [0, -10, 0] }} 
               transition={{ repeat: Infinity, duration: 3 }}
