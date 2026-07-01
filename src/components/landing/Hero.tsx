@@ -11,6 +11,10 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export const Hero = () => {
   const heroMockup = PlaceHolderImages.find((img) => img.id === "hero-mockup");
 
+  const scrollToDownload = () => {
+    document.getElementById('download')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative pt-24 pb-16 px-6 lg:pt-48 lg:pb-32 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
@@ -34,11 +38,9 @@ export const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-12">
-              <Button asChild size="lg" className="w-full sm:w-auto h-14 px-8 text-lg rounded-full shadow-xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all">
-                <a href="http://evadevstudio.com/astuexam/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
-                  <Download className="w-5 h-5 mr-2" />
-                  Download APK
-                </a>
+              <Button onClick={scrollToDownload} size="lg" className="w-full sm:w-auto h-14 px-8 text-lg rounded-full shadow-xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all font-bold">
+                <Download className="w-5 h-5 mr-2" />
+                Download APK
               </Button>
               <Button variant="outline" size="lg" className="w-full sm:w-auto h-14 px-8 text-lg rounded-full hover:bg-muted active:scale-95 transition-all" onClick={() => document.getElementById('preview')?.scrollIntoView({ behavior: 'smooth' })}>
                 <ImageIcon className="w-5 h-5 mr-2" />

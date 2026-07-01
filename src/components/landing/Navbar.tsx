@@ -27,6 +27,11 @@ export const Navbar = () => {
     { name: "FAQ", href: "#faq" },
   ];
 
+  const scrollToDownload = () => {
+    document.getElementById('download')?.scrollIntoView({ behavior: 'smooth' });
+    setMobileMenuOpen(false);
+  };
+
   return (
     <>
       <nav
@@ -60,11 +65,9 @@ export const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <Button asChild className="rounded-full px-6 shadow-lg shadow-primary/20 hover:scale-105 transition-all">
-              <a href="http://evadevstudio.com/astuexam/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
-                <Download className="w-4 h-4 mr-2" />
-                Download
-              </a>
+            <Button onClick={scrollToDownload} className="rounded-full px-6 shadow-lg shadow-primary/20 hover:scale-105 transition-all font-bold">
+              <Download className="w-4 h-4 mr-2" />
+              Get App
             </Button>
           </div>
 
@@ -115,14 +118,12 @@ export const Navbar = () => {
                   </Link>
                 ))}
                 <div className="mt-8 space-y-4">
-                  <Button asChild className="w-full rounded-2xl py-7 text-lg shadow-xl shadow-primary/30">
-                    <a href="http://evadevstudio.com/astuexam/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
-                      <Download className="w-5 h-5 mr-3" />
-                      Download App
-                    </a>
+                  <Button onClick={scrollToDownload} className="w-full rounded-2xl py-7 text-lg shadow-xl shadow-primary/30 font-bold">
+                    <Download className="w-5 h-5 mr-3" />
+                    Download Now
                   </Button>
                   <p className="text-center text-sm text-muted-foreground font-medium">
-                    Available for Android 7.0+
+                    Select your device version
                   </p>
                 </div>
               </div>
