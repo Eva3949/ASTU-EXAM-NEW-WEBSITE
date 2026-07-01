@@ -4,118 +4,141 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Download, Smartphone, Star, Info, Cpu } from "lucide-react";
+import { Download, Smartphone, Star, Info, Cpu, BadgeCheck } from "lucide-react";
 import { motion } from "framer-motion";
 
 export const PlayStoreDownload = () => {
   return (
-    <section id="download" className="py-24 px-6 bg-slate-50/50 dark:bg-slate-900/5">
+    <section id="download" className="py-24 px-6 bg-[#f8f9fa] dark:bg-slate-900/10">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-headline font-bold mb-4">Download <span className="text-primary">Center</span></h2>
+          <h2 className="text-4xl font-headline font-bold mb-4">Official <span className="text-primary">Download Hub</span></h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Choose the version that fits your device. We support both modern and legacy Android phones.
+            Select the optimized package for your device architecture.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* V8 Version - Modern */}
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="glass rounded-[2.5rem] p-8 border border-primary/20 shadow-xl relative overflow-hidden flex flex-col"
+            className="bg-white dark:bg-slate-800 rounded-[2rem] p-8 shadow-sm border border-border/40 relative overflow-hidden flex flex-col"
           >
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary">
-                <Cpu className="w-8 h-8" />
+            <div className="flex gap-5 mb-6">
+              <div className="relative w-20 h-20 rounded-2xl overflow-hidden shadow-md flex-shrink-0">
+                <Image src="/image/logo.png" alt="ASTU EXAM v8" fill className="object-cover" />
               </div>
-              <div>
-                <h3 className="text-xl font-bold">Modern Version</h3>
-                <p className="text-sm text-muted-foreground font-medium">For Android 9.0+</p>
+              <div className="flex flex-col justify-center">
+                <h3 className="text-xl font-bold leading-tight">ASTU EXAM (Modern)</h3>
+                <p className="text-primary font-medium text-sm">Eva Development Studio</p>
+                <div className="flex items-center gap-1 mt-1">
+                  <span className="text-xs font-bold">4.9</span>
+                  <div className="flex">
+                    {[1, 2, 3, 4, 5].map((s) => (
+                      <Star key={s} className="w-3 h-3 fill-yellow-400 text-yellow-400" />
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
-            
-            <p className="text-muted-foreground mb-8 flex-1">
-              Optimized for high-end performance on newer devices (ARM64-v8a). Includes latest security updates and smooth animations.
-            </p>
 
-            <Button asChild size="lg" className="w-full h-16 rounded-2xl text-lg font-bold shadow-lg shadow-primary/20 active:scale-95 transition-transform">
+            <div className="flex items-center gap-2 mb-6 px-3 py-1.5 bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 rounded-lg w-fit">
+              <BadgeCheck className="w-4 h-4" />
+              <span className="text-xs font-bold uppercase tracking-wider">Verified by Student Union</span>
+            </div>
+            
+            <div className="space-y-3 mb-8 flex-1">
+              <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                <Cpu className="w-4 h-4" />
+                <span>Architecture: <b>ARM64-v8a</b></span>
+              </div>
+              <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                <Smartphone className="w-4 h-4" />
+                <span>Compatibility: <b>Android 9.0+</b></span>
+              </div>
+            </div>
+
+            <Button asChild size="lg" className="w-full h-12 rounded-lg text-sm font-bold bg-[#01875f] hover:bg-[#01875f]/90 text-white shadow-none active:scale-95 transition-transform">
               <a href="http://evadevstudio.com/astuexam/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
-                <Download className="w-5 h-5 mr-3" />
-                Download v8 APK
+                Install v8 (Modern)
               </a>
             </Button>
-            <p className="text-center text-[10px] uppercase font-bold text-muted-foreground mt-4 tracking-widest">
-              Size: ~99MB • Architecture: v8a
+            <p className="text-center text-[10px] text-muted-foreground mt-4 font-medium uppercase tracking-widest">
+              Size: 99.2 MB
             </p>
           </motion.div>
 
           {/* V7 Version - Legacy */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="glass rounded-[2.5rem] p-8 border border-border/50 shadow-xl relative overflow-hidden flex flex-col"
+            transition={{ delay: 0.1 }}
+            className="bg-white dark:bg-slate-800 rounded-[2rem] p-8 shadow-sm border border-border/40 relative overflow-hidden flex flex-col"
           >
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center">
-                <Smartphone className="w-8 h-8" />
+            <div className="flex gap-5 mb-6">
+              <div className="relative w-20 h-20 rounded-2xl overflow-hidden shadow-md flex-shrink-0 grayscale-[0.3]">
+                <Image src="/image/logo.png" alt="ASTU EXAM v7" fill className="object-cover" />
               </div>
-              <div>
-                <h3 className="text-xl font-bold">Legacy Version</h3>
-                <p className="text-sm text-muted-foreground font-medium">For Android 7.0 - 8.1</p>
+              <div className="flex flex-col justify-center">
+                <h3 className="text-xl font-bold leading-tight">ASTU EXAM (Legacy)</h3>
+                <p className="text-primary font-medium text-sm">Eva Development Studio</p>
+                <div className="flex items-center gap-1 mt-1">
+                  <span className="text-xs font-bold">4.8</span>
+                  <div className="flex">
+                    {[1, 2, 3, 4, 5].map((s) => (
+                      <Star key={s} className="w-3 h-3 fill-yellow-400 text-yellow-400" />
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
 
-            <p className="text-muted-foreground mb-8 flex-1">
-              Stable version for older devices (ARMEABI-v7a). Lightweight and compatible with a wider range of ASTU student hardware.
-            </p>
+            <div className="flex items-center gap-2 mb-6 px-3 py-1.5 bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-400 rounded-lg w-fit">
+              <Smartphone className="w-4 h-4" />
+              <span className="text-xs font-bold uppercase tracking-wider">High Compatibility</span>
+            </div>
 
-            <Button asChild variant="secondary" size="lg" className="w-full h-16 rounded-2xl text-lg font-bold shadow-lg active:scale-95 transition-transform">
+            <div className="space-y-3 mb-8 flex-1">
+              <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                <Cpu className="w-4 h-4" />
+                <span>Architecture: <b>ARMEABI-v7a</b></span>
+              </div>
+              <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                <Smartphone className="w-4 h-4" />
+                <span>Compatibility: <b>Android 7.0 - 8.1</b></span>
+              </div>
+            </div>
+
+            <Button asChild variant="outline" size="lg" className="w-full h-12 rounded-lg text-sm font-bold border-[#01875f] text-[#01875f] hover:bg-green-50 active:scale-95 transition-transform">
               <a href="http://evadevstudio.com/astuexam/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
-                <Download className="w-5 h-5 mr-3" />
-                Download v7 APK
+                Install v7 (Legacy)
               </a>
             </Button>
-            <p className="text-center text-[10px] uppercase font-bold text-muted-foreground mt-4 tracking-widest">
-              Size: ~85MB • Architecture: v7a
+            <p className="text-center text-[10px] text-muted-foreground mt-4 font-medium uppercase tracking-widest">
+              Size: 85.1 MB
             </p>
           </motion.div>
         </div>
 
+        {/* Security Info */}
         <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="mt-12 p-8 glass rounded-[2rem] border border-border/50"
+          className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-8 py-6 border-t border-border/50"
         >
-          <div className="flex flex-col md:flex-row items-center gap-10">
-            <div className="relative w-24 h-24 overflow-hidden rounded-2xl shrink-0 shadow-lg">
-              <Image 
-                src="/image/logo.png" 
-                alt="ASTU EXAM App Icon" 
-                fill 
-                className="object-cover"
-              />
-            </div>
-            <div className="flex-1 text-center md:text-left">
-              <div className="flex items-center gap-2 justify-center md:justify-start mb-2">
-                <h4 className="text-xl font-bold">Verified by ASTU Students</h4>
-                <div className="flex items-center gap-1 text-primary font-bold">
-                  4.9 <Star className="w-4 h-4 fill-primary" />
-                </div>
-              </div>
-              <p className="text-muted-foreground text-sm">
-                Join 10,000+ students already mastering their exams with intelligence and efficiency.
-              </p>
-            </div>
-            <div className="flex items-start gap-3 p-4 bg-primary/5 rounded-xl border border-primary/10 max-w-xs">
-              <Info className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-              <p className="text-xs text-foreground/70 leading-relaxed">
-                If you're unsure, try the <b>Modern v8</b> version first. If it fails to install, use the <b>Legacy v7</b> version.
-              </p>
-            </div>
+          <div className="flex items-center gap-2">
+            <BadgeCheck className="w-5 h-5 text-green-600" />
+            <span className="text-sm font-medium">Verified by Play Protect (Equivalent)</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Info className="w-5 h-5 text-blue-500" />
+            <p className="text-sm text-muted-foreground">
+              Unsure? Most modern phones use <b>v8 (Modern)</b>.
+            </p>
           </div>
         </motion.div>
       </div>
