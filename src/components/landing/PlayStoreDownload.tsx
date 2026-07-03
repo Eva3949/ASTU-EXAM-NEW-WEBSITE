@@ -61,12 +61,17 @@ export const PlayStoreDownload = () => {
             </div>
 
             <Button asChild size="lg" className="w-full h-12 rounded-lg text-sm font-bold bg-[#01875f] hover:bg-[#01875f]/90 text-white shadow-none active:scale-95 transition-transform">
-              <a href="http://evadevstudio.com/astuexam/v8/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://evadevstudio.com/astuexam/v8/ASTU EXAM.apk" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                download="ASTU_EXAM_v8_Modern.apk"
+              >
                 Install v8 (Modern)
               </a>
             </Button>
             <p className="text-center text-[10px] text-muted-foreground mt-4 font-medium uppercase tracking-widest">
-              Size:50 MB
+              Size: 50 MB
             </p>
           </motion.div>
 
@@ -113,7 +118,12 @@ export const PlayStoreDownload = () => {
             </div>
 
             <Button asChild variant="outline" size="lg" className="w-full h-12 rounded-lg text-sm font-bold border-[#01875f] text-[#01875f] hover:bg-green-50 active:scale-95 transition-transform">
-              <a href="http://evadevstudio.com/astuexam/v7/ASTU EXAM.apk" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://evadevstudio.com/astuexam/v7/ASTU EXAM.apk" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                download="ASTU_EXAM_v7_Legacy.apk"
+              >
                 Install v7 (Legacy)
               </a>
             </Button>
