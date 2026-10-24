@@ -12,6 +12,7 @@ import { AIStudyTool } from "@/components/landing/AIStudyTool";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { ScreenshotsGallery } from "@/components/landing/ScreenshotsGallery";
 import { FAQ } from "@/components/landing/FAQ";
+import { AdBanner } from "@/components/ads/AdBanner";
 import { PlayStoreDownload } from "@/components/landing/PlayStoreDownload";
 import { DeveloperSection } from "@/components/landing/DeveloperSection";
 import { ContactSection } from "@/components/landing/ContactSection";
@@ -40,6 +41,9 @@ export default function LandingPage() {
         <Comparison />
         <Testimonials />
         <ScreenshotsGallery />
+        <div className="max-w-5xl mx-auto px-6 py-4">
+          <AdBanner />
+        </div>
         <FAQ />
         <PlayStoreDownload />
         <DeveloperSection />

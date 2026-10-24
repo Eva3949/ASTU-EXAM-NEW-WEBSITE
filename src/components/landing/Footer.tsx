@@ -50,10 +50,10 @@ export const Footer = () => {
           <div>
             <h4 className="text-white font-bold text-lg mb-6">Support</h4>
             <ul className="space-y-4">
-              <li><Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Terms of Service</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Contact Us</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Community Forum</Link></li>
+              <li><Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="hover:text-primary transition-colors">Terms of Service</Link></li>
+              <li><Link href="#contact" className="hover:text-primary transition-colors">Contact Us</Link></li>
+              <li><Link href="https://t.me/astuexam" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Community Forum</Link></li>
             </ul>
           </div>
 
